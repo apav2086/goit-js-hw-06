@@ -23,6 +23,6 @@ const markupEl = images.map((image) =>
 
 galleryEl.insertAdjacentHTML("beforeend", markupEl);
 galleryEl.insertAdjacentHTML("beforebegin", "<h2>Gallery</h2>");
-console.log(galleryEl);
-console.log(markupEl);
+//console.log(galleryEl);
+//console.log(markupEl);
 galleryEl.setAttribute('style', 'display: flex', 'justify-content: space-around');

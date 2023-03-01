@@ -1,6 +1,6 @@
 let inputEl = document.querySelector('#validation-input');
  const validLengthEl = inputEl.dataset.length;
-console.log(validLengthEl);
+//console.log(validLengthEl);
 let maxNumEl = parseInt(validLengthEl);
 let stringValueEl = inputEl.value.length;
 
